@@ -1,0 +1,6 @@
+<launch>
+    <node name="nodo_camara" pkg="camara" type="publicador_imagen_launch.py" output="screen">
+        <param name="nombre_camara" type="string" value="/dev/video1" />
+    </node>
+</launch>
+
